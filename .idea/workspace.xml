@@ -1,396 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69dea49-2ed7-4873-8494-7755e6ec4b30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/appiumtest/steps/AppTestBase.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Roscian'sQuidcoTest.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AccessibilityIdentifiers.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Acknowledgements.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AirshipConfig.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon20x20@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon20x20@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon20x20@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon20x20~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon29x29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon29x29@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon29x29@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon29x29@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon29x29~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon40x40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon40x40@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon40x40@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon40x40~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon50x50@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon50x50~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon57x57@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon60x60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon60x60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon72x72@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon72x72~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon76x76@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon76x76~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/AppIcon83.5x83.5@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Assets.car" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNAlertView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNAlertView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNAlertView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNAlertView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNBaseModalController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNDefaultItemButton.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNDefaultItemButton~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNDefaultItemButton~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNDefaultItemButton~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNDefaultItemButton~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNGroupNameCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNGroupNameCell~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNGroupNameCell~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNGroupNameCell~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNGroupNameCell~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInstallBannerView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInstallBannerView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInstallBannerView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInstallBannerView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInstallBannerView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonContentView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonContentView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonContentView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonContentView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonContentView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonInventoryCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonInventoryCell~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonInventoryCell~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonInventoryCell~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInteractiveButtonInventoryCell~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryItemCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryItemCell~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryItemCell~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryItemCell~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryItemCell~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryListCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryListCell~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryListCell~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryListCell~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryListCell~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryPreviewView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryPreviewView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryPreviewView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryPreviewView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryPreviewView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNInventoryView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNLocationRequestView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNLocationRequestView~ipad.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNLocationRequestView~ipad.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNLocationRequestView~iphone.nib/objects-8.0+.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNLocationRequestView~iphone.nib/runtime.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNNavigationHeaderView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNSandboxAppStoreController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNSimulatorInstallView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNSimulatorStoreController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNTextBannerView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNWebViewInstallAppController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNWebViewInstallSheetController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/BTNWebViewSheetController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/Button-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_back@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_back@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_clock@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_clock@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_compass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_compass@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_compass@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_deeplink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_deeplink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_deeplink@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_disclosure@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_disclosure@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_dismiss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_dismiss@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_dismiss@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_download@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/ic_download@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/img_ios-simulator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/img_ios-simulator@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/img_ios-simulator@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_back@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_back@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_forward@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Button.bundle/wv_forward@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Facebook-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipKit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UAAutomation.momd/UAAutomation.mom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UAAutomation.momd/VersionInfo.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UADefaultMessageCenterListCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UADefaultMessageCenterListViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UADefaultMessageCenterMessageViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UADefaultMessageCenterPlaceholderIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UAEvents.momd/UAEvents.mom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UAEvents.momd/VersionInfo.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UAInAppMessageView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UALandingPageOverlayView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UANativeBridge" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/UANotificationCategories.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ar.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/cs.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/da.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/de.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/en.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/es-419.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/es.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/fi.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/fr.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/hi.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/hu.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/id.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/it.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/iw.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ja.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ko.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ms.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/nl.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/no.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/pl.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/pt-PT.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/pt.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ro.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/ru.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/sk.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/sv.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/th.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/tr.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/vi.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/zh-Hans.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/AirshipResources.bundle/zh-Hant.lproj/UrbanAirship.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/SC_Info/AirshipKit.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/SC_Info/AirshipKit.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/SC_Info/AirshipKit.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/AirshipKit.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/Analytics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/SC_Info/Analytics.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/SC_Info/Analytics.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/SC_Info/Analytics.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Analytics.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/Bolts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/SC_Info/Bolts.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/SC_Info/Bolts.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/SC_Info/Bolts.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/SC_Info/FBSDKCoreKit.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/SC_Info/FBSDKCoreKit.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/SC_Info/FBSDKCoreKit.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/SC_Info/FBSDKLoginKit.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/SC_Info/FBSDKLoginKit.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/SC_Info/FBSDKLoginKit.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/FacebookCore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/SC_Info/FacebookCore.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/SC_Info/FacebookCore.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/SC_Info/FacebookCore.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookCore.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/FacebookLogin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/SC_Info/FacebookLogin.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/SC_Info/FacebookLogin.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/SC_Info/FacebookLogin.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/FacebookLogin.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/KeychainAccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/SC_Info/KeychainAccess.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/SC_Info/KeychainAccess.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/SC_Info/KeychainAccess.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/MSMAPIKit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/SC_Info/MSMAPIKit.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/SC_Info/MSMAPIKit.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/SC_Info/MSMAPIKit.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAPIKit.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/MSMAnalytics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/MSMAnalyticsTrackableMap.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/SC_Info/MSMAnalytics.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/SC_Info/MSMAnalytics.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/SC_Info/MSMAnalytics.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMAnalytics.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/MSMData" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/SC_Info/MSMData.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/SC_Info/MSMData.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/SC_Info/MSMData.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMData.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/MSMFoundation" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/SC_Info/MSMFoundation.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/SC_Info/MSMFoundation.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/SC_Info/MSMFoundation.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMFoundation.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountActivityTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountNotAuthenticatedHeaderView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountNotAuthenticatedView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountStatementHeaderView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountStatementTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountSummaryHeaderView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountSummaryItemCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAccountSummaryTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAcknowledgementsTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAllCategoriesCollectionViewCellIPad.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIAllCategoriesCollectionViewCellIPhone.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIHomeResponsiveOfferCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIHomeSignInView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIHomeSliderCarouselCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIHomeSliderCarouselView.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIHomeSliderOfferCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIKit" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantAboutTextCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantHeaderCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantOfferCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantOfferCountCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantRateCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIMerchantRateCountCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUIPaymentMethodTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUISearchCollectionViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/MSMUISupportTableViewCell.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/SC_Info/MSMUIKit.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/SC_Info/MSMUIKit.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/SC_Info/MSMUIKit.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/MSMUIKit.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/PayPalMobileSDK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/SC_Info/PayPalMobileSDK.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/SC_Info/PayPalMobileSDK.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/SC_Info/PayPalMobileSDK.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/PayPalMobileSDK.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/RxBlocking" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/SC_Info/RxBlocking.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/SC_Info/RxBlocking.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/SC_Info/RxBlocking.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxBlocking.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/RxCocoa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/SC_Info/RxCocoa.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/SC_Info/RxCocoa.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/SC_Info/RxCocoa.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/SharedSequence+Operators+arity.tt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxCocoa.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/RxSwift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/SC_Info/RxSwift.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/SC_Info/RxSwift.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/SC_Info/RxSwift.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/RxSwift.framework/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftAVFoundation.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCore.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreAudio.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreData.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreGraphics.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreImage.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreLocation.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftCoreMedia.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftDarwin.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftDispatch.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftFoundation.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftObjectiveC.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftQuartzCore.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Frameworks/libswiftUIKit.dylib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/GZIP-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~ipad.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~ipad.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~ipad.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~iphone.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~iphone.storyboardc/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/LaunchScreen~iphone.storyboardc/UIViewController-01J-lp-oVM.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAccountActivityDetailsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAccountActivityViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAccountSettingsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAccountStatementViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAccountSummaryViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAcknowledgementsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAllCategoriesViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMAuthorizationRootViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMChangeEmailViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMChangePasswordViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMEditBACSMethodViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMForgotPasswordViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMHomeViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMLandingViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMLoginViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMMerchantViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMNotificationsPermissionViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMPaymentConfirmationViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMPaymentViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMPaymentsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMRegistrationViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMSearchResultsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMSearchViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMSingleCategoryViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMSupportViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMTermsAndConditionsViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMTermsAndPrivacyViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/MSMTextViewController.nib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/NewRelic-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Paypal-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/PkgInfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Quidco" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/RxCocoa-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/SC_Info/Manifest.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/SC_Info/Quidco.sinf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/SC_Info/Quidco.supf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/SC_Info/Quidco.supp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/SC_Info/Quidco.supx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Segmentio-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/TermsAndConditionsEmbeddedResource.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/Urban-airship-readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/_CodeSignature/CodeResources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/archived-expanded-entitlements.xcent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/rawline-400.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/Quidco.app/rawline-700.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/ios/appiumtest/steps/AppTestBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/ios/appiumtest/steps/Login_steps.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ios/appiumtest/helpers/CommonAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ios/appiumtest/pages/Login_page.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ios/appiumtest/steps/AppTestBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ios/appiumtest/steps/Login_steps.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ios/appiumtest/test/RunTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/features/LogIn.feature" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/ios/appiumtest/helpers/CommonAction.java" afterPath="$PROJECT_DIR$/src/test/java/com/appiumtest/helpers/CommonAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/ios/appiumtest/pages/Login_page.java" afterPath="$PROJECT_DIR$/src/test/java/com/appiumtest/pages/Calculator_page.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/ios/appiumtest/test/RunTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/appiumtest/test/RunTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/features/LogIn.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Calculator.feature" />
+    <list default="true" id="84325a4f-83d1-4531-9a1d-3823e17c225a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.html/formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.html/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.html/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.html/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-parallel/1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Scenario: checking subtraction  is correct or not.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Scenario: checking subtraction  is correct or not.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/appiumtest/helpers/CommonAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/appiumtest/pages/Calculator_page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/appiumtest/steps/AppTestBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/appiumtest/steps/Calculator_step.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/appiumtest/test/RunTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/features/Calculator.feature" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appium.iml" afterPath="$PROJECT_DIR$/appium.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cucumber.json" afterPath="$PROJECT_DIR$/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -403,12 +34,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Calculator.feature">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="-2565">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="304">
+                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -454,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/appiumtest/steps/Calculator_step.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/appiumtest/steps/AppTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/appiumtest/pages/Calculator_page.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -493,13 +138,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -515,81 +159,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber-parallel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber-parallel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -611,11 +200,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
+              <option name="myItemId" value="android_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -632,120 +221,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="steps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quidco-mobileIos-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -1133,36 +615,57 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="990" extended-state="6" />
+    <frame x="-1" y="23" width="1920" height="990" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13312034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11608094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32628062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32628062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1217,12 +720,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/appiumtest/steps/Calculator_steps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/appiumtest/pages/Calculator_page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,9 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,9 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1365,15 +870,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/appiumtest/steps/Calculator_steps.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="145" column="37" lean-forward="false" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+        <state relative-caret-position="-2565">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1382,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1390,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,9 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1426,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
