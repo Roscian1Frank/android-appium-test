@@ -11,7 +11,6 @@ Android phone connected to leptop
 
 # To execute automation suite   
 
-1. Start appium server
-2. MVN clen test 
+1. MVN clen test 
 
 result are stored in target folder cucumber-parallel/1.html/index.htm

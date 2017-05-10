@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 37084800396,
+              "duration": 17147270505,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 5,
-        "name": "checking sum calculation is correct or not",
+        "name": "checking sum is correct or not",
         "description": "",
-        "id": "testing-calculator-app;checking-sum-calculation-is-correct-or-not",
+        "id": "testing-calculator-app;checking-sum-is-correct-or-not",
         "after": [
           {
             "result": {
-              "duration": 5549983864,
+              "duration": 3295943469,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 251656186,
+              "duration": 299865262,
               "status": "passed"
             },
             "line": 6,
@@ -46,27 +46,33 @@
           },
           {
             "result": {
-              "duration": 2758350306,
+              "duration": 2332427672,
               "status": "passed"
             },
             "line": 7,
-            "name": "I am entering input to the calculator",
+            "name": "I am doing \"addition\" of two number",
             "match": {
-              "location": "Calculator_step.iAmEnteringInputToTheCalculator()"
+              "arguments": [
+                {
+                  "val": "addition",
+                  "offset": 12
+                }
+              ],
+              "location": "Calculator_step.iAmDoingOfTwoNumber(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 685894492,
+              "duration": 585200034,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am checking \"sum\" result is correct",
+            "name": "I am checking \"addition\" result is correct",
             "match": {
               "arguments": [
                 {
-                  "val": "sum",
+                  "val": "addition",
                   "offset": 15
                 }
               ],
@@ -86,7 +92,7 @@
         "before": [
           {
             "result": {
-              "duration": 35971435272,
+              "duration": 16881859413,
               "status": "passed"
             },
             "match": {
@@ -95,13 +101,13 @@
           }
         ],
         "line": 11,
-        "name": "checking subtraction  is correct or not",
+        "name": "checking subtraction is correct or not",
         "description": "",
-        "id": "testing-calculator-app;checking-subtraction--is-correct-or-not",
+        "id": "testing-calculator-app;checking-subtraction-is-correct-or-not",
         "after": [
           {
             "result": {
-              "duration": 5549759955,
+              "duration": 3038898195,
               "status": "passed"
             },
             "match": {
@@ -114,7 +120,7 @@
         "steps": [
           {
             "result": {
-              "duration": 374880469,
+              "duration": 286750341,
               "status": "passed"
             },
             "line": 12,
@@ -126,27 +132,33 @@
           },
           {
             "result": {
-              "duration": 3364203275,
+              "duration": 2411000915,
               "status": "passed"
             },
             "line": 13,
-            "name": "I am entering input to the calculator",
+            "name": "I am doing \"subtraction\" of two number",
             "match": {
-              "location": "Calculator_step.iAmEnteringInputToTheCalculator()"
+              "arguments": [
+                {
+                  "val": "subtraction",
+                  "offset": 12
+                }
+              ],
+              "location": "Calculator_step.iAmDoingOfTwoNumber(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 557532665,
+              "duration": 557843949,
               "status": "passed"
             },
             "line": 14,
-            "name": "I am checking \"sub\" result is correct",
+            "name": "I am checking \"subtraction\" result is correct",
             "match": {
               "arguments": [
                 {
-                  "val": "sub",
+                  "val": "subtraction",
                   "offset": 15
                 }
               ],
@@ -159,6 +171,178 @@
           {
             "line": 10,
             "name": "@sub"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16733898559,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.startApp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "checking multiplication is correct or not",
+        "description": "",
+        "id": "testing-calculator-app;checking-multiplication-is-correct-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 3228246805,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.closeApp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 347529873,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on calculator app",
+            "match": {
+              "location": "Calculator_step.iAmOnCalculatorApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2353336163,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am doing \"multiplication\" of two number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "multiplication",
+                  "offset": 12
+                }
+              ],
+              "location": "Calculator_step.iAmDoingOfTwoNumber(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 548673069,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am checking \"multiplication\" result is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "multiplication",
+                  "offset": 15
+                }
+              ],
+              "location": "Calculator_step.iAmCheckingResultIsCorrect(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@mul"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16516314096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.startApp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "checking division is correct or not",
+        "description": "",
+        "id": "testing-calculator-app;checking-division-is-correct-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 3203011537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.closeApp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 369262572,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on calculator app",
+            "match": {
+              "location": "Calculator_step.iAmOnCalculatorApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2388147096,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am doing \"division\" of two number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "division",
+                  "offset": 12
+                }
+              ],
+              "location": "Calculator_step.iAmDoingOfTwoNumber(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 569064299,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am checking \"division\" result is correct",
+            "match": {
+              "arguments": [
+                {
+                  "val": "division",
+                  "offset": 15
+                }
+              ],
+              "location": "Calculator_step.iAmCheckingResultIsCorrect(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@div"
           }
         ]
       }

@@ -11,9 +11,11 @@ import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import javax.xml.ws.Service;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
@@ -26,6 +28,7 @@ import java.util.concurrent.TimeUnit;
 public class AppTestBase extends CommonAction {
     public static RemoteWebDriver driver;
     String myApp = "android";
+    AppiumDriverLocalService service = AppiumDriverLocalService.buildDefaultService();
     @Before
     public void startApp() throws MalformedURLException {
         if(myApp.equalsIgnoreCase("android")) {
@@ -34,6 +37,9 @@ public class AppTestBase extends CommonAction {
             //capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1");
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
             capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/build/assignment1.apk");
+            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
+            capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 120);
+            service.start();
             driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         }else {
@@ -56,5 +62,6 @@ public class AppTestBase extends CommonAction {
     @After
     public void closeApp() throws IOException, URISyntaxException {
         driver.quit();
+        service.stop();
     }
 }

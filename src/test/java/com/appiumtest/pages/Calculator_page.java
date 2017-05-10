@@ -45,7 +45,7 @@ public class Calculator_page {
     public WebElement eqlButton;
 
     @FindBy(id = "com.hackpundit.www.assignment1:id/edt1")
-    public WebElement resultButton;
+    public WebElement resultBar;
 
 
 }
