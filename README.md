@@ -1,8 +1,9 @@
 # quidco-mobileIos-test
 pre requisites 
 Appium v 1.6.4
-Xcode 8.3.2
-IOS 10.3
+java 1.8
+Maven 3.3
+Android phone connected to leptop  
 
 To execute automation suite   
 
