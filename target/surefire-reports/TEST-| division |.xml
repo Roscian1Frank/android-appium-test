@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="| division |" time="185.653" tests="32" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="| division |" time="211.869" tests="38" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,36 +62,42 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on calculator app" classname="Scenario: checking sum is correct or not" time="0.001"/>
+  <testcase name="Given I am on calculator app" classname="Scenario: Checking all the button are working" time="0.001"/>
+  <testcase name="When I click on each button" classname="Scenario: Checking all the button are working" time="0"/>
+  <testcase name="Then I check input on calculator" classname="Scenario: Checking all the button are working" time="0"/>
+  <testcase name="When I click clear button" classname="Scenario: Checking all the button are working" time="0"/>
+  <testcase name="Then calculator clear out the numbers" classname="Scenario: Checking all the button are working" time="0"/>
+  <testcase name="Scenario: Checking all the button are working" classname="Scenario: Checking all the button are working" time="3.327"/>
+  <testcase name="Given I am on calculator app" classname="Scenario: checking sum is correct or not" time="0"/>
   <testcase name="When I am doing &quot;addition&quot; of two number" classname="Scenario: checking sum is correct or not" time="0"/>
-  <testcase name="Then I am checking &quot;addition&quot; result is correct" classname="Scenario: checking sum is correct or not" time="0"/>
-  <testcase name="Scenario: checking sum is correct or not" classname="Scenario: checking sum is correct or not" time="3.248"/>
+  <testcase name="Then I am checking &quot;addition&quot; result is correct" classname="Scenario: checking sum is correct or not" time="0.001"/>
+  <testcase name="Scenario: checking sum is correct or not" classname="Scenario: checking sum is correct or not" time="3.184"/>
   <testcase name="Given I am on calculator app" classname="Scenario: checking subtraction is correct or not" time="0"/>
   <testcase name="When I am doing &quot;subtraction&quot; of two number" classname="Scenario: checking subtraction is correct or not" time="0"/>
   <testcase name="Then I am checking &quot;subtraction&quot; result is correct" classname="Scenario: checking subtraction is correct or not" time="0"/>
-  <testcase name="Scenario: checking subtraction is correct or not" classname="Scenario: checking subtraction is correct or not" time="3.223"/>
+  <testcase name="Scenario: checking subtraction is correct or not" classname="Scenario: checking subtraction is correct or not" time="3.213"/>
   <testcase name="Given I am on calculator app" classname="Scenario: checking multiplication is correct or not" time="0"/>
   <testcase name="When I am doing &quot;multiplication&quot; of two number" classname="Scenario: checking multiplication is correct or not" time="0"/>
   <testcase name="Then I am checking &quot;multiplication&quot; result is correct" classname="Scenario: checking multiplication is correct or not" time="0"/>
-  <testcase name="Scenario: checking multiplication is correct or not" classname="Scenario: checking multiplication is correct or not" time="3.217"/>
+  <testcase name="Scenario: checking multiplication is correct or not" classname="Scenario: checking multiplication is correct or not" time="3.2"/>
   <testcase name="Given I am on calculator app" classname="Scenario: checking division is correct or not" time="0"/>
   <testcase name="When I am doing &quot;division&quot; of two number" classname="Scenario: checking division is correct or not" time="0"/>
   <testcase name="Then I am checking &quot;division&quot; result is correct" classname="Scenario: checking division is correct or not" time="0"/>
-  <testcase name="Scenario: checking division is correct or not" classname="Scenario: checking division is correct or not" time="3.239"/>
+  <testcase name="Scenario: checking division is correct or not" classname="Scenario: checking division is correct or not" time="3.177"/>
   <testcase name="Given I am on calculator app" classname="| addition |" time="0"/>
   <testcase name="When I am doing &quot;addition&quot; of two number" classname="| addition |" time="0"/>
   <testcase name="Then I am checking &quot;addition&quot; result is correct" classname="| addition |" time="0"/>
-  <testcase name="| addition |" classname="| addition |" time="3.246"/>
+  <testcase name="| addition |" classname="| addition |" time="3.17"/>
   <testcase name="Given I am on calculator app" classname="| subtraction |" time="0"/>
   <testcase name="When I am doing &quot;subtraction&quot; of two number" classname="| subtraction |" time="0"/>
   <testcase name="Then I am checking &quot;subtraction&quot; result is correct" classname="| subtraction |" time="0"/>
-  <testcase name="| subtraction |" classname="| subtraction |" time="3.252"/>
+  <testcase name="| subtraction |" classname="| subtraction |" time="3.117"/>
   <testcase name="Given I am on calculator app" classname="| multiplication |" time="0"/>
   <testcase name="When I am doing &quot;multiplication&quot; of two number" classname="| multiplication |" time="0"/>
   <testcase name="Then I am checking &quot;multiplication&quot; result is correct" classname="| multiplication |" time="0"/>
-  <testcase name="| multiplication |" classname="| multiplication |" time="3.24"/>
+  <testcase name="| multiplication |" classname="| multiplication |" time="3.201"/>
   <testcase name="Given I am on calculator app" classname="| division |" time="0"/>
   <testcase name="When I am doing &quot;division&quot; of two number" classname="| division |" time="0"/>
   <testcase name="Then I am checking &quot;division&quot; result is correct" classname="| division |" time="0"/>
-  <testcase name="| division |" classname="| division |" time="3.26"/>
+  <testcase name="| division |" classname="| division |" time="3.13"/>
 </testsuite>

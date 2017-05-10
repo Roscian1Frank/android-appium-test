@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 17283983831,
+              "duration": 16647307587,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 5,
-        "name": "checking sum is correct or not",
+        "name": "Checking all the button are working",
         "description": "",
-        "id": "testing-calculator-app;checking-sum-is-correct-or-not",
+        "id": "testing-calculator-app;checking-all-the-button-are-working",
         "after": [
           {
             "result": {
-              "duration": 3245596382,
+              "duration": 3325759560,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 268812206,
+              "duration": 303323760,
               "status": "passed"
             },
             "line": 6,
@@ -46,10 +46,108 @@
           },
           {
             "result": {
-              "duration": 2394626724,
+              "duration": 7579862887,
               "status": "passed"
             },
             "line": 7,
+            "name": "I click on each button",
+            "match": {
+              "location": "Calculator_step.iClickOnEachButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579365072,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check input on calculator",
+            "match": {
+              "location": "Calculator_step.iCheckInputOnCalculator()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 211913747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click clear button",
+            "match": {
+              "location": "Calculator_step.iClickClearButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560516166,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "calculator clear out the numbers",
+            "match": {
+              "location": "Calculator_step.calculatorClearOutTheNumbers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@buttons"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16186220518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.startApp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "checking sum is correct or not",
+        "description": "",
+        "id": "testing-calculator-app;checking-sum-is-correct-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 3182476144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.closeApp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314913624,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on calculator app",
+            "match": {
+              "location": "Calculator_step.iAmOnCalculatorApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2361890771,
+              "status": "passed"
+            },
+            "line": 15,
             "name": "I am doing \"addition\" of two number",
             "match": {
               "arguments": [
@@ -64,10 +162,10 @@
           },
           {
             "result": {
-              "duration": 599056714,
+              "duration": 540960474,
               "status": "passed"
             },
-            "line": 8,
+            "line": 16,
             "name": "I am checking \"addition\" result is correct",
             "match": {
               "arguments": [
@@ -83,7 +181,7 @@
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 12,
             "name": "@sum"
           }
         ]
@@ -92,7 +190,7 @@
         "before": [
           {
             "result": {
-              "duration": 16698098461,
+              "duration": 16086693078,
               "status": "passed"
             },
             "match": {
@@ -100,14 +198,14 @@
             }
           }
         ],
-        "line": 11,
+        "line": 19,
         "name": "checking subtraction is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-subtraction-is-correct-or-not",
         "after": [
           {
             "result": {
-              "duration": 3222008639,
+              "duration": 3212202124,
               "status": "passed"
             },
             "match": {
@@ -120,10 +218,10 @@
         "steps": [
           {
             "result": {
-              "duration": 326335211,
+              "duration": 303174333,
               "status": "passed"
             },
-            "line": 12,
+            "line": 20,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -132,10 +230,10 @@
           },
           {
             "result": {
-              "duration": 2446366067,
+              "duration": 2383722046,
               "status": "passed"
             },
-            "line": 13,
+            "line": 21,
             "name": "I am doing \"subtraction\" of two number",
             "match": {
               "arguments": [
@@ -150,10 +248,10 @@
           },
           {
             "result": {
-              "duration": 567850951,
+              "duration": 563344405,
               "status": "passed"
             },
-            "line": 14,
+            "line": 22,
             "name": "I am checking \"subtraction\" result is correct",
             "match": {
               "arguments": [
@@ -169,7 +267,7 @@
         ],
         "tags": [
           {
-            "line": 10,
+            "line": 18,
             "name": "@sub"
           }
         ]
@@ -178,7 +276,7 @@
         "before": [
           {
             "result": {
-              "duration": 16661904156,
+              "duration": 16832535211,
               "status": "passed"
             },
             "match": {
@@ -186,14 +284,14 @@
             }
           }
         ],
-        "line": 17,
+        "line": 25,
         "name": "checking multiplication is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-multiplication-is-correct-or-not",
         "after": [
           {
             "result": {
-              "duration": 3215963612,
+              "duration": 3199032279,
               "status": "passed"
             },
             "match": {
@@ -206,10 +304,10 @@
         "steps": [
           {
             "result": {
-              "duration": 341692384,
+              "duration": 278496965,
               "status": "passed"
             },
-            "line": 18,
+            "line": 26,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -218,10 +316,10 @@
           },
           {
             "result": {
-              "duration": 2363258794,
+              "duration": 2366027847,
               "status": "passed"
             },
-            "line": 19,
+            "line": 27,
             "name": "I am doing \"multiplication\" of two number",
             "match": {
               "arguments": [
@@ -236,10 +334,10 @@
           },
           {
             "result": {
-              "duration": 569050436,
+              "duration": 602083861,
               "status": "passed"
             },
-            "line": 20,
+            "line": 28,
             "name": "I am checking \"multiplication\" result is correct",
             "match": {
               "arguments": [
@@ -255,7 +353,7 @@
         ],
         "tags": [
           {
-            "line": 16,
+            "line": 24,
             "name": "@mul"
           }
         ]
@@ -264,7 +362,7 @@
         "before": [
           {
             "result": {
-              "duration": 16579936611,
+              "duration": 16697578672,
               "status": "passed"
             },
             "match": {
@@ -272,14 +370,14 @@
             }
           }
         ],
-        "line": 23,
+        "line": 31,
         "name": "checking division is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-division-is-correct-or-not",
         "after": [
           {
             "result": {
-              "duration": 3237477963,
+              "duration": 3176398237,
               "status": "passed"
             },
             "match": {
@@ -292,10 +390,10 @@
         "steps": [
           {
             "result": {
-              "duration": 267072159,
+              "duration": 307513265,
               "status": "passed"
             },
-            "line": 24,
+            "line": 32,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -304,10 +402,10 @@
           },
           {
             "result": {
-              "duration": 2329182441,
+              "duration": 2360838731,
               "status": "passed"
             },
-            "line": 25,
+            "line": 33,
             "name": "I am doing \"division\" of two number",
             "match": {
               "arguments": [
@@ -322,10 +420,10 @@
           },
           {
             "result": {
-              "duration": 547226766,
+              "duration": 556811049,
               "status": "passed"
             },
-            "line": 26,
+            "line": 34,
             "name": "I am checking \"division\" result is correct",
             "match": {
               "arguments": [
@@ -341,7 +439,7 @@
         ],
         "tags": [
           {
-            "line": 22,
+            "line": 30,
             "name": "@div"
           }
         ]
@@ -350,7 +448,7 @@
         "before": [
           {
             "result": {
-              "duration": 16847471924,
+              "duration": 16535223846,
               "status": "passed"
             },
             "match": {
@@ -358,14 +456,14 @@
             }
           }
         ],
-        "line": 36,
+        "line": 44,
         "name": "checking division is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-division-is-correct-or-not;;2",
         "after": [
           {
             "result": {
-              "duration": 3245019888,
+              "duration": 3168031597,
               "status": "passed"
             },
             "match": {
@@ -378,10 +476,10 @@
         "steps": [
           {
             "result": {
-              "duration": 271364061,
+              "duration": 284368275,
               "status": "passed"
             },
-            "line": 30,
+            "line": 38,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -390,10 +488,10 @@
           },
           {
             "result": {
-              "duration": 2382123423,
+              "duration": 2346717247,
               "status": "passed"
             },
-            "line": 31,
+            "line": 39,
             "name": "I am doing \"addition\" of two number",
             "match": {
               "arguments": [
@@ -411,10 +509,10 @@
           },
           {
             "result": {
-              "duration": 553839555,
+              "duration": 583414579,
               "status": "passed"
             },
-            "line": 32,
+            "line": 40,
             "name": "I am checking \"addition\" result is correct",
             "match": {
               "arguments": [
@@ -437,7 +535,7 @@
             "name": "@calculator"
           },
           {
-            "line": 28,
+            "line": 36,
             "name": "@exampleTable"
           }
         ]
@@ -446,7 +544,7 @@
         "before": [
           {
             "result": {
-              "duration": 16443369068,
+              "duration": 16367588506,
               "status": "passed"
             },
             "match": {
@@ -454,14 +552,14 @@
             }
           }
         ],
-        "line": 37,
+        "line": 45,
         "name": "checking division is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-division-is-correct-or-not;;3",
         "after": [
           {
             "result": {
-              "duration": 3250700170,
+              "duration": 3116366658,
               "status": "passed"
             },
             "match": {
@@ -474,10 +572,10 @@
         "steps": [
           {
             "result": {
-              "duration": 301612202,
+              "duration": 324391963,
               "status": "passed"
             },
-            "line": 30,
+            "line": 38,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -486,10 +584,10 @@
           },
           {
             "result": {
-              "duration": 2432068653,
+              "duration": 2360415121,
               "status": "passed"
             },
-            "line": 31,
+            "line": 39,
             "name": "I am doing \"subtraction\" of two number",
             "match": {
               "arguments": [
@@ -507,10 +605,10 @@
           },
           {
             "result": {
-              "duration": 524472196,
+              "duration": 601028265,
               "status": "passed"
             },
-            "line": 32,
+            "line": 40,
             "name": "I am checking \"subtraction\" result is correct",
             "match": {
               "arguments": [
@@ -533,7 +631,7 @@
             "name": "@calculator"
           },
           {
-            "line": 28,
+            "line": 36,
             "name": "@exampleTable"
           }
         ]
@@ -542,7 +640,7 @@
         "before": [
           {
             "result": {
-              "duration": 16500039929,
+              "duration": 16251791710,
               "status": "passed"
             },
             "match": {
@@ -550,14 +648,14 @@
             }
           }
         ],
-        "line": 38,
+        "line": 46,
         "name": "checking division is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-division-is-correct-or-not;;4",
         "after": [
           {
             "result": {
-              "duration": 3239219704,
+              "duration": 3200280509,
               "status": "passed"
             },
             "match": {
@@ -570,10 +668,10 @@
         "steps": [
           {
             "result": {
-              "duration": 270562190,
+              "duration": 357885573,
               "status": "passed"
             },
-            "line": 30,
+            "line": 38,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -582,10 +680,10 @@
           },
           {
             "result": {
-              "duration": 2385554105,
+              "duration": 2391043936,
               "status": "passed"
             },
-            "line": 31,
+            "line": 39,
             "name": "I am doing \"multiplication\" of two number",
             "match": {
               "arguments": [
@@ -603,10 +701,10 @@
           },
           {
             "result": {
-              "duration": 639575834,
+              "duration": 582765505,
               "status": "passed"
             },
-            "line": 32,
+            "line": 40,
             "name": "I am checking \"multiplication\" result is correct",
             "match": {
               "arguments": [
@@ -629,7 +727,7 @@
             "name": "@calculator"
           },
           {
-            "line": 28,
+            "line": 36,
             "name": "@exampleTable"
           }
         ]
@@ -638,7 +736,7 @@
         "before": [
           {
             "result": {
-              "duration": 16499239994,
+              "duration": 16193531036,
               "status": "passed"
             },
             "match": {
@@ -646,14 +744,14 @@
             }
           }
         ],
-        "line": 39,
+        "line": 47,
         "name": "checking division is correct or not",
         "description": "",
         "id": "testing-calculator-app;checking-division-is-correct-or-not;;5",
         "after": [
           {
             "result": {
-              "duration": 3259337020,
+              "duration": 3129881387,
               "status": "passed"
             },
             "match": {
@@ -666,10 +764,10 @@
         "steps": [
           {
             "result": {
-              "duration": 318329127,
+              "duration": 272878115,
               "status": "passed"
             },
-            "line": 30,
+            "line": 38,
             "name": "I am on calculator app",
             "match": {
               "location": "Calculator_step.iAmOnCalculatorApp()"
@@ -678,10 +776,10 @@
           },
           {
             "result": {
-              "duration": 2434082826,
+              "duration": 2377318311,
               "status": "passed"
             },
-            "line": 31,
+            "line": 39,
             "name": "I am doing \"division\" of two number",
             "match": {
               "arguments": [
@@ -699,10 +797,10 @@
           },
           {
             "result": {
-              "duration": 595180150,
+              "duration": 592455836,
               "status": "passed"
             },
-            "line": 32,
+            "line": 40,
             "name": "I am checking \"division\" result is correct",
             "match": {
               "arguments": [
@@ -725,7 +823,7 @@
             "name": "@calculator"
           },
           {
-            "line": 28,
+            "line": 36,
             "name": "@exampleTable"
           }
         ]

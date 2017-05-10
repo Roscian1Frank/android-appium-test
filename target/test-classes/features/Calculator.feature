@@ -1,6 +1,14 @@
 @calculator
 Feature: Testing calculator app
 
+  @buttons
+    Scenario: Checking all the button are working
+    Given I am on calculator app
+    When I click on each button
+    Then I check input on calculator
+    When I click clear button
+    Then calculator clear out the numbers
+
   @sum
   Scenario: checking sum is correct or not
     Given I am on calculator app
