@@ -2,6 +2,8 @@ package com.appiumtest.steps;
 
 import com.appiumtest.helpers.CommonAction;
 import com.appiumtest.pages.Calculator_page;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -19,15 +21,6 @@ public class Calculator_step extends CommonAction {
         waitForElement();
         Assert.assertTrue(calcPage.appHeader.isDisplayed());
     }
-
-    @When("^I am entering input to the calculator$")
-    public void iAmEnteringInputToTheCalculator() throws Throwable {
-        calcPage.button5.click();
-        calcPage.addButton.click();
-        calcPage.button8.click();
-        calcPage.eqlButton.click();
-    }
-
 
     @Then("^I am checking \"([^\"]*)\" result is correct$")
     public void iAmCheckingResultIsCorrect(String result) throws Throwable {
@@ -57,32 +50,40 @@ public class Calculator_step extends CommonAction {
     public void iAmDoingOfTwoNumber(String calculation) throws Throwable {
         switch (calculation) {
             case "addition":
-                calcPage.button5.click();
-                calcPage.addButton.click();
-                calcPage.button8.click();
-                calcPage.eqlButton.click();
+                calcPage.addition();
                 break;
             case "subtraction":
-                calcPage.button8.click();
-                calcPage.subButton.click();
-                calcPage.button5.click();
-                calcPage.eqlButton.click();
+                calcPage.subtraction();
                 break;
             case "multiplication":
-                calcPage.button8.click();
-                calcPage.mulButton.click();
-                calcPage.button5.click();
-                calcPage.eqlButton.click();
+                calcPage.multiplication();
                 break;
             case "division":
-                calcPage.button8.click();
-                calcPage.divButton.click();
-                calcPage.button5.click();
-                calcPage.eqlButton.click();
+                calcPage.division();
                 break;
             default: {
                 Assert.assertTrue(false);
             }
         }
+    }
+
+    @When("^I click on each button$")
+    public void iClickOnEachButton() throws Throwable {
+        calcPage.buttonCheck();
+    }
+
+    @Then("^I check input on calculator$")
+    public void iCheckInputOnCalculator() throws Throwable {
+        Assert.assertEquals("Buttons are not working ", "123456789.0", calcPage.resultBar.getText());
+    }
+
+    @And("^I click clear button$")
+    public void iClickClearButton() throws Throwable {
+        calcPage.clearButton.click();
+    }
+
+    @Then("^calculator clear out the numbers$")
+    public void calculatorClearOutTheNumbers() throws Throwable {
+        Assert.assertEquals("Clear button is not working ", "", calcPage.resultBar.getText());
     }
 }
