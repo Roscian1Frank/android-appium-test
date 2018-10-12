@@ -34,7 +34,7 @@ Feature: Testing calculator app
     Then I am checking "division" result is correct
 
   @exampleTable
-  Scenario Outline: checking division is correct or not
+  Scenario Outline: Running all scenario via example table
     Given I am on calculator app
     When I am doing "<calculation>" of two number
     Then I am checking "<calculation>" result is correct

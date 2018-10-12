@@ -1,9 +1,7 @@
-package com.appiumtest.helpers;
+package com.appiumTest.helpers;
 
-import com.appiumtest.steps.AppTestBase;
+import com.appiumTest.steps.AppTestBase;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.ios.IOSElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -11,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class CommonAction {
 
-    public static RemoteWebDriver driver;
+    public static AppiumDriver driver;
 
     public CommonAction() {
         driver = AppTestBase.driver;

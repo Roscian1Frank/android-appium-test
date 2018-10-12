@@ -1,21 +1,18 @@
-package com.appiumtest.pages;
+package com.appiumTest.pages;
 
 
-import com.github.javafaker.Faker;
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import io.appium.java_client.pagefactory.iOSFindBy;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import static com.appiumTest.helpers.CommonAction.driver;
 
 /**
  * Created by roscian.frank on 05/05/2017.
  */
 public class Calculator_page {
-    public Calculator_page(RemoteWebDriver driver) {
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+    public Calculator_page() {
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(className = "android.widget.TextView")

@@ -1,8 +1,7 @@
-package com.appiumtest.steps;
+package com.appiumTest.steps;
 
-import com.appiumtest.helpers.CommonAction;
-import com.appiumtest.pages.Calculator_page;
-import cucumber.api.PendingException;
+import com.appiumTest.helpers.CommonAction;
+import com.appiumTest.pages.Calculator_page;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -14,7 +13,7 @@ import org.junit.Assert;
  * Created by roscian.frank on 09/05/2017.
  */
 public class Calculator_step extends CommonAction {
-    Calculator_page calcPage = new Calculator_page(driver);
+    Calculator_page calcPage = new Calculator_page();
 
     @Given("^I am on calculator app$")
     public void iAmOnCalculatorApp() throws Throwable {
