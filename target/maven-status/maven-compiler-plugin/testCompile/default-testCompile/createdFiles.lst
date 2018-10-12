@@ -1,6 +1,0 @@
-com/appiumtest/test/RunTest.class
-com/appiumtest/steps/Calculator_step.class
-Parallel01IT.class
-com/appiumtest/helpers/CommonAction.class
-com/appiumtest/pages/Calculator_page.class
-com/appiumtest/steps/AppTestBase.class
