@@ -32,7 +32,6 @@ public class AppTestBase extends CommonAction {
         if (myApp.equalsIgnoreCase("android")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-            //capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1");
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
             capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/build/assignment1.apk");
             capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
