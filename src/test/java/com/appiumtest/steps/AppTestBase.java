@@ -1,6 +1,6 @@
-package com.appiumTest.steps;
+package com.appiumtest.steps;
 
-import com.appiumTest.helpers.CommonAction;
+import com.appiumtest.helpers.CommonAction;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;

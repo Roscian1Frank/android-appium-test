@@ -1,7 +1,7 @@
-package com.appiumTest.steps;
+package com.appiumtest.steps;
 
-import com.appiumTest.helpers.CommonAction;
-import com.appiumTest.pages.Calculator_page;
+import com.appiumtest.helpers.CommonAction;
+import com.appiumtest.pages.Calculator_page;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

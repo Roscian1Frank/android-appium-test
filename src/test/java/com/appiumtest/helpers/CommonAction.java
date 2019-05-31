@@ -1,6 +1,6 @@
-package com.appiumTest.helpers;
+package com.appiumtest.helpers;
 
-import com.appiumTest.steps.AppTestBase;
+import com.appiumtest.steps.AppTestBase;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 

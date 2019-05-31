@@ -1,11 +1,11 @@
-package com.appiumTest.pages;
+package com.appiumtest.pages;
 
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static com.appiumTest.helpers.CommonAction.driver;
+import static com.appiumtest.steps.AppTestBase.driver;
 
 /**
  * Created by roscian.frank on 05/05/2017.
